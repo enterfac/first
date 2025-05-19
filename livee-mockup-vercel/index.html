@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이메일 템플릿 미리보기</title>
+  <style>
+    body {
+      font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+    }
+    .card {
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.4rem;
+    }
+    a.button {
+      display: inline-block;
+      background-color: #0066cc;
+      color: white;
+      padding: 0.7rem 1.2rem;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+    a.button:hover {
+      background-color: #0055aa;
+    }
+  </style>
+</head>
+<body>
+  <h1>이메일 템플릿 미리보기</h1>
+  
+  <div class="card">
+    <h2>참가고유코드 찾기 메일</h2>
+    <p>사용자가 참가고유코드를 요청했을 때 발송되는 이메일 템플릿입니다.</p>
+    <a href="/campaign_email_find_code.html" class="button">템플릿 보기</a>
+  </div>
+
+  <div class="card">
+    <h2>캠페인 참가 신청 확인 메일</h2>
+    <p>사용자가 캠페인에 참가 신청했을 때 발송되는 이메일 템플릿입니다.</p>
+    <a href="/campaign_email_complete_registration.html" class="button">템플릿 보기</a>
+  </div>
+
+  <script>
+    // 자동 리다이렉트 제거 - 선택 가능하도록 수정
+    // window.location.href = '/email_find_code.html';
+  </script>
+</body>
+</html> 

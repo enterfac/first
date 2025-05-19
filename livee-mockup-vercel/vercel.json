@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "public/**/*", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/campaign_email_find_code.html", "dest": "/public/campaign_email_find_code.html" },
+    { "src": "/campaign_email_complete_registration.html", "dest": "/public/campaign_email_complete_registration.html" }
+  ]
+} 
